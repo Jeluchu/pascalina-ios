@@ -11,6 +11,7 @@
 		A690AA4A22B8D81400B02C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A690AA4922B8D81400B02C28 /* Assets.xcassets */; };
 		A690AA4D22B8D81400B02C28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A690AA4B22B8D81400B02C28 /* LaunchScreen.storyboard */; };
 		A690AA5822B8D81400B02C28 /* PascalinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A690AA5722B8D81400B02C28 /* PascalinaTests.swift */; };
+		A69DF0EC22BB878600724DA3 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69DF0EB22BB878600724DA3 /* UIButtonExtension.swift */; };
 		A6A87B7622B8DF29007DBA4D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A87B7422B8DF29007DBA4D /* HomeViewController.swift */; };
 		A6A87B7722B8DF29007DBA4D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6A87B7522B8DF29007DBA4D /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 		A690AA5322B8D81400B02C28 /* PascalinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PascalinaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A690AA5722B8D81400B02C28 /* PascalinaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalinaTests.swift; sourceTree = "<group>"; };
 		A690AA5922B8D81400B02C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A69DF0EB22BB878600724DA3 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		A6A87B7422B8DF29007DBA4D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A6A87B7522B8DF29007DBA4D /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,6 +126,7 @@
 		A6A87B7022B8DA6A007DBA4D /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				A69DF0EB22BB878600724DA3 /* UIButtonExtension.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -210,9 +213,11 @@
 				TargetAttributes = {
 					A690AA3E22B8D81200B02C28 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					A690AA5222B8D81400B02C28 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = A690AA3E22B8D81200B02C28;
 					};
 				};
@@ -263,6 +268,7 @@
 			files = (
 				A690AA4322B8D81200B02C28 /* AppDelegate.swift in Sources */,
 				A6A87B7622B8DF29007DBA4D /* HomeViewController.swift in Sources */,
+				A69DF0EC22BB878600724DA3 /* UIButtonExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +431,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeluchu.Pascalina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -443,7 +449,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeluchu.Pascalina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -462,7 +468,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeluchu.PascalinaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pascalina.app/Pascalina";
 			};
@@ -482,7 +488,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeluchu.PascalinaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pascalina.app/Pascalina";
 			};
