@@ -213,9 +213,11 @@
 				TargetAttributes = {
 					A690AA3E22B8D81200B02C28 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					A690AA5222B8D81400B02C28 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = A690AA3E22B8D81200B02C28;
 					};
 				};
@@ -429,7 +431,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeluchu.Pascalina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -447,7 +449,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeluchu.Pascalina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -466,7 +468,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeluchu.PascalinaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pascalina.app/Pascalina";
 			};
@@ -486,7 +488,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeluchu.PascalinaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pascalina.app/Pascalina";
 			};
